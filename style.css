@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color: ghostwhite;
+box-sizing: border-box;
+
+}
+
+nav{
+background-color: #312C6A;
+padding: .9%;
+margin-top: 10px;
+
+
+}
+
+nav ul{
+    display: flex;
+    background-color:#312C6A;
+    justify-content: space-around;
+    justify-self: center;
+    padding: .4%;
+  
+}
+nav ul li{
+    
+    background-color:#312C6A;
+    color: wheat;
+   
+    
+}
+nav ul li a{
+    background-color: #312C6A;
+    color: wheat;
+    text-decoration: none;
+    scroll-behavior: smooth;
+   
+}
+nav ul li i{
+    background-color: #312C6A;
+    color: wheat;
+    
+
+}
+nav ul li a:hover{
+    scale: 1.05;
+    box-shadow: 2px 4px 6px;
+    color: aliceblue;
+}
+
+
+section div img{
+    width: 50%;
+    height: auto;
+    align-items: center;
+    margin-left: 25%;
+    border: ridge 5px wheat;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+h1{
+    color: #312C6A;
+    background-color: white;
+    padding: 20px;
+  
+}
+p{
+    
+    text-align: start;
+    justify-content: center;
+    font-size: larger;
+    text-align: left;
+    text-justify: distribute-all-lines;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right:  35px;
+    
+    
+}
+section div ul li{
+    text-align: start;
+    justify-content: center;
+    font-size: larger;
+    text-align: left;
+    text-justify: distribute-all-lines;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+section div iframe{
+    margin-left: 2.5%;
+    width: 1400px;
+    height: 787.5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+form{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+
+}
+
+button{
+
+    color: azure;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #312C6A;
+    padding: .5%;
+}
+  footer UL{
+        
+        background-color:#312C6A;
+    
+       
+        
+    }
+    footer ul li{
+        background-color:#312C6A;
+    }
+    footer ul li a{
+        background-color: #312C6A;
+        text-decoration: none;
+        color: white;
+       
+    }
+    div.footer h1{
+      
+        background-color: white;
+        padding: 35px;
+    }
+    footer ul li a:hover{
+        scale: 1.05;
+    box-shadow: 1px 1px 1px 1px;
+    color: aliceblue;
+
+    }
+nav{
+
+position: fixed;
+width: 100%;
+justify-content: space-evenly;
+
+}
